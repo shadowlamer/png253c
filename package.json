@@ -1,0 +1,30 @@
+{
+  "name": "png253c",
+  "version": "1.0.0",
+  "description": "Converts image to ZX Spectrum 53c format.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadowlamer/png253c.git"
+  },
+  "main": "./bin/main.js",
+  "bin": "./bin/main.js",
+  "scripts": {
+    "start": "node bin/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "ZX Spectrum",
+    "53c"
+  ],
+  "author": {
+    "name": "Vadim Cherenev",
+    "email": "sl@anhot.ru"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "euclidean-distance": "^1.0.0",
+    "jimp": "^0.16.1",
+    "minimist": "^1.2.5"
+  }
+}
